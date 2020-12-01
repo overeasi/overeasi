@@ -52,6 +52,10 @@ class NavBar {
   async gotoAddIntentPage(testController) {
     await testController.click('#navbar-add-intent');
   }
+
+  async leaveWelcomeModalPage(testController) {
+    await testController.click('#modal-button');
+  }
 }
 
 export const navBar = new NavBar();

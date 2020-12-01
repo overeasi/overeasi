@@ -5,7 +5,7 @@ function welcomeModal() {
   const [open, setOpen] = React.useState(true);
 
   return (
-      <Modal
+      <Modal id="welcome-modal-page"
           onClose={() => setOpen(false)}
           onOpen={() => setOpen(true)}
           open={open}
@@ -28,7 +28,7 @@ function welcomeModal() {
           </Modal.Description>
         </Modal.Content>
         <Modal.Actions>
-          <Button
+          <Button id="modal-button"
               content="Let's get chatting"
               labelPosition='right'
               icon='angle double right'

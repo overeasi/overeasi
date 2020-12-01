@@ -22,7 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e807642e-755f-4028-858a-119d2baad8c1" name="Default Changelist" comment="" />
+    <list default="true" id="e807642e-755f-4028-858a-119d2baad8c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/tests/welcomemodal.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/imports/ui/pages/WelcomeModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/imports/ui/pages/WelcomeModal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests/navbar.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/navbar.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests/tests.testcafe.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/tests.testcafe.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +48,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/tests" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,13 +58,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/app/tests" />
-      <recent name="$PROJECT_DIR$/.idea/config" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/tests" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/.idea/config" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
