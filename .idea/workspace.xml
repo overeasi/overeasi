@@ -22,15 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e807642e-755f-4028-858a-119d2baad8c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/imports/ui/pages/Chatbot.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/imports/ui/pages/Chatbot.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/imports/ui/pages/Signin.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/imports/ui/pages/Signin.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/imports/ui/pages/Signout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/imports/ui/pages/Signout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/imports/ui/pages/Signup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/imports/ui/pages/Signup.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tests/navbar.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/navbar.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tests/tests.testcafe.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/tests.testcafe.js" afterDir="false" />
-    </list>
+    <list default="true" id="e807642e-755f-4028-858a-119d2baad8c1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
