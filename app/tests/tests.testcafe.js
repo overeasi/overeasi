@@ -10,6 +10,7 @@ import { listReportPage } from './listreport.page';
 
 /** Credentials for one of the sample users defined in settings.development.json. */
 const credentials = { username: 'john@foo.com', password: 'changeme' };
+const credentials2 = { username: 'admin@foo.com', password: 'changeme', role: 'admin' };
 
 fixture('meteor-app lication-template-react localhost test with default db')
     .page('http://localhost:3000');
@@ -28,14 +29,14 @@ test('Test that signin and signout work', async (testController) => {
 
 test('Test the List Report page', async (testController) => {
   await navBar.gotoSigninPage(testController);
-  await signinPage.signin(testController, credentials.username, credentials.password);
+  await signinPage.signin(testController, credentials2.username, credentials2.password);
   await navBar.gotoListReportPage(testController);
   await listReportPage.isDisplayed(testController);
 });
 
 test('Test the List Intent page', async (testController) => {
   await navBar.gotoSigninPage(testController);
-  await signinPage.signin(testController, credentials.username, credentials.password);
+  await signinPage.signin(testController, credentials2.username, credentials2.password);
   await navBar.gotoListIntentPage(testController);
   await listIntentPage.isDisplayed(testController);
 });
@@ -49,7 +50,7 @@ test('Test the Add Report page', async (testController) => {
 
 test('Test the Add Intent page', async (testController) => {
   await navBar.gotoSigninPage(testController);
-  await signinPage.signin(testController, credentials.username, credentials.password);
+  await signinPage.signin(testController, credentials2.username, credentials2.password);
   await navBar.gotoAddIntentPage(testController);
   await addIntentPage.isDisplayed(testController);
 });
