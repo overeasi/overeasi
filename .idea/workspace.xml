@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,7 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e807642e-755f-4028-858a-119d2baad8c1" name="Default Changelist" comment="" />
+    <list default="true" id="e807642e-755f-4028-858a-119d2baad8c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/imports/ui/pages/AddIntents.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/imports/ui/pages/AddIntents.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/imports/ui/pages/AddReport.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/imports/ui/pages/AddReport.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/imports/ui/pages/Landing.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/imports/ui/pages/Landing.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/imports/ui/pages/ListIntent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/imports/ui/pages/ListIntent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/imports/ui/pages/ListReportsAdmin.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/imports/ui/pages/ListReportsAdmin.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,5 +93,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="390" y="135" key="new project wizard/1440.0.1130.834/0.0.1440.900@0.0.1440.900" timestamp="1606723194670" />
+    <state x="380" y="163" width="670" height="676" key="search.everywhere.popup" timestamp="1606853926951">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="380" y="163" width="670" height="676" key="search.everywhere.popup/0.23.1440.816@0.23.1440.816" timestamp="1606853926951" />
   </component>
 </project>
