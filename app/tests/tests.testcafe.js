@@ -30,6 +30,7 @@ test('Test that signin and signout work', async (testController) => {
   await navBar.leaveWelcomeModalPage(testController);
   await navBar.gotoSigninPage(testController);
   await signinPage.signin(testController, credentials.username, credentials.password);
+  await navBar.leaveWelcomeModalPage(testController);
   await navBar.isLoggedIn(testController, credentials.username);
   await navBar.logout(testController);
   await signoutPage.isDisplayed(testController);
@@ -39,6 +40,7 @@ test('Test the List Report page', async (testController) => {
   await navBar.leaveWelcomeModalPage(testController);
   await navBar.gotoSigninPage(testController);
   await signinPage.signin(testController, credentials2.username, credentials2.password);
+  await navBar.leaveWelcomeModalPage(testController);
   await navBar.gotoListReportPage(testController);
   await listReportPage.isDisplayed(testController);
 });
@@ -47,6 +49,7 @@ test('Test the List Intent page', async (testController) => {
   await navBar.leaveWelcomeModalPage(testController);
   await navBar.gotoSigninPage(testController);
   await signinPage.signin(testController, credentials2.username, credentials2.password);
+  await navBar.leaveWelcomeModalPage(testController);
   await navBar.gotoListIntentPage(testController);
   await listIntentPage.isDisplayed(testController);
 });
@@ -55,6 +58,7 @@ test('Test the Add Report page', async (testController) => {
   await navBar.leaveWelcomeModalPage(testController);
   await navBar.gotoSigninPage(testController);
   await signinPage.signin(testController, credentials.username, credentials.password);
+  await navBar.leaveWelcomeModalPage(testController);
   await navBar.gotoAddReportPage(testController);
   await addReportPage.isDisplayed(testController);
 });
@@ -63,6 +67,7 @@ test('Test the Add Intent page', async (testController) => {
   await navBar.leaveWelcomeModalPage(testController);
   await navBar.gotoSigninPage(testController);
   await signinPage.signin(testController, credentials2.username, credentials2.password);
+  await navBar.leaveWelcomeModalPage(testController);
   await navBar.gotoAddIntentPage(testController);
   await addIntentPage.isDisplayed(testController);
 });

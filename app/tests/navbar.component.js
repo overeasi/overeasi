@@ -46,7 +46,7 @@ class NavBar {
   }
 
   async gotoAddReportPage(testController) {
-    await testController.click('#navbar-add-report');
+    await testController.click('#add-report-button');
   }
 
   async gotoAddIntentPage(testController) {

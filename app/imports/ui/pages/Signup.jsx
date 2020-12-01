@@ -40,7 +40,7 @@ class Signup extends React.Component {
     }
     return (
       <div className="background">
-      <Container>
+      <Container id="signup-page">
         <Grid textAlign="center" verticalAlign="middle" centered columns={2}>
           <Grid.Column>
             <Header as="h2" textAlign="center">
@@ -48,7 +48,7 @@ class Signup extends React.Component {
             </Header>
             <Form onSubmit={this.submit}>
               <Segment stacked>
-                <Form.Input
+                <Form.Input id="signup-form-email"
                   label="Email"
                   icon="user"
                   iconPosition="left"
@@ -57,7 +57,7 @@ class Signup extends React.Component {
                   placeholder="E-mail address"
                   onChange={this.handleChange}
                 />
-                <Form.Input
+                <Form.Input id="signup-form-password"
                   label="Password"
                   icon="lock"
                   iconPosition="left"
@@ -66,7 +66,7 @@ class Signup extends React.Component {
                   type="password"
                   onChange={this.handleChange}
                 />
-                <Form.Button content="Submit"/>
+                <Form.Button id="signup-form-submit" content="Submit"/>
               </Segment>
             </Form>
             <Message>
