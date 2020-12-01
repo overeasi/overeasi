@@ -10,6 +10,11 @@ class ListReportPage {
   async isDisplayed(testController) {
     await testController.expect(this.pageSelector.exists).ok();
   }
+
+  async hasTable(testController) {
+    const rowCount = Selector('tr').count;
+    await testController.expect(rowCount).gte(1);
+  }
 }
 
 export const listReportPage = new ListReportPage();

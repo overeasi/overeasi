@@ -43,6 +43,7 @@ test('Test the List Report page', async (testController) => {
   await navBar.leaveWelcomeModalPage(testController);
   await navBar.gotoListReportPage(testController);
   await listReportPage.isDisplayed(testController);
+  await listReportPage.hasTable(testController);
 });
 
 test('Test the List Intent page', async (testController) => {
@@ -52,6 +53,7 @@ test('Test the List Intent page', async (testController) => {
   await navBar.leaveWelcomeModalPage(testController);
   await navBar.gotoListIntentPage(testController);
   await listIntentPage.isDisplayed(testController);
+  await listIntentPage.hasTable(testController);
 });
 
 test('Test the Add Report page', async (testController) => {
