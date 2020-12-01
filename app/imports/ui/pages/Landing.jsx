@@ -6,7 +6,7 @@ import WelcomeModal from './WelcomeModal';
 class Landing extends React.Component {
   render() {
     return (
-        <div>
+        <div id="landing-page">
        <WelcomeModal/>
        <Chatbot/>
         </div>

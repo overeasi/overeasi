@@ -16,7 +16,7 @@ class ListReportsAdmin extends React.Component {
   renderPage() {
     return (
     <div className="background">
-    <Container>
+    <Container id="list-report-page">
       <Header as="h2" textAlign="center">List of Reports</Header>
       <Table celled padded>
         <Table.Header>

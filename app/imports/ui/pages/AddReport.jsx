@@ -43,7 +43,7 @@ class AddReport extends React.Component {
   render() {
     let fRef = null;
     return (
-        <Grid container centered>
+        <Grid container centered id="add-report-page">
           <Grid.Column>
             <Header as="h2" textAlign="center">Report a Problem</Header>
             <AutoForm ref={ref => { fRef = ref; }} schema={bridge} onSubmit={data => this.submit(data, fRef)} >

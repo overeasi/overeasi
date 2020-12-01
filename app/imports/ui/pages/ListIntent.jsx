@@ -19,7 +19,7 @@ class ListIntent extends React.Component {
       }
     });
     return (
-        <Container>
+        <Container id="list-intent-page">
           <Header as="h2" textAlign="center">List Intents</Header>
           <Table celled>
             <Table.Header>
