@@ -13,7 +13,7 @@ import { welcomeModalPage } from './welcomemodal.page';
 const credentials = { username: 'john@foo.com', password: 'changeme' };
 const credentials2 = { username: 'admin@foo.com', password: 'changeme', role: 'admin' };
 
-fixture('meteor-app lication-template-react localhost test with default db')
+fixture('meteor-application-template-react localhost test with default db')
     .page('http://localhost:3000');
 
 test('Test the Welcome Modal page', async (testController) => {
