@@ -1,4 +1,4 @@
-name: ci-overeasi-covid19-chatbot
+name: overeasi
 
 on:
   push:
