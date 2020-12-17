@@ -8,7 +8,6 @@ import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import Landing from '../pages/Landing';
 import ListIntent from '../pages/ListIntent';
-import EditStuff from '../pages/EditStuff';
 import NotFound from '../pages/NotFound';
 import Signin from '../pages/Signin';
 import Signup from '../pages/Signup';
@@ -33,7 +32,6 @@ class App extends React.Component {
               <Route path="/addreport" component={AddReport}/>
               <AdminProtectedRoute path="/list" component={ListIntent}/>
               <AdminProtectedRoute path="/add" component={AddIntents}/>
-              <ProtectedRoute path="/edit/:_id" component={EditStuff}/>
               <AdminProtectedRoute path="/reportadmin" component={ListReportsAdmin}/>
               <ProtectedRoute path="/signout" component={Signout}/>
               <Route component={NotFound}/>
